@@ -11,8 +11,13 @@ inicio
              Escreva("Digite um número: ")
              Leia(Val[i])
              Se (Val[i]) % 2 = 0 entao
-             Spar <- Spar + 1
+                Spar <- Spar + 1
              FimSe
       FimPara
-      Escreva(" O total de pares é ",Spar)
+      Escreval(" O total de pares é ",Spar)
+      Para i <- 1 ate 7 faca
+             Se (Val[i]) % 2 = 0 entao
+                Escreval("Valor PAR na posição ",i)
+             FimSe
+      FimPara
 fimalgoritmo
